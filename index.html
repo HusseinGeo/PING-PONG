@@ -1,22 +1,58 @@
 <!DOCTYPE html>
       <html>
         <head>
-          <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-          <link href="css/styles.css" rel="stylesheet" type="text/css">
-
-          <title>Colors</title>
+          <title>Ping pong</title>
+          <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+          <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
         </head>
         <body>
-          <div class="container">
-            <h1>What's your favorite color?</h1>
-            <p>Click a button to choose what color you'd like this page to be:</p>
-
-            <button class="btn btn-success" id="green">Green</button>
-            <button class="btn btn-warning" id="yellow">Yellow</button>
-            <button class="btn btn-danger" id="red">Red</button>
-            <button class="btn btn-primary" id="blue">blue</button>
+          <div class="row" id="top">
+            <h1>Ping Pong</h1>
           </div>
-          <script src="js/jquery-3.2.1.js"></script>
-          <script src="js/scripts.js"></script>
+          <div class="row" id="whole">
+            <div class="col-md-3" id="sidebar">
+              <h3>About Ping Pong</h3>
+              <h4>Created by:</h4>
+              <p id="m">Hussein Mulla</p>
+              <h4>Github Username/URL:</h4>
+              <p id="h">HusseinGeo</p>
+              <h4>Level 2 Test for</h4>
+              <p id="j">Java</p>
+            </div>
+              <div class="col-md-9" id="large column">
+                <h3>Let's Play!</h3>
+                <h5>Rules:</h5>
+                <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+                <ol>
+                  <li>Numbers divisible by 3 become "ping"</li>
+                  <li>Numbers divisible by 5 become "pong"</li>
+                  <li>Numbers divisible by 3 and 5 become "pingpong"</li>
+                </ol>
+                <form>
+                  <label for="number"><b>Enter your number here</b></label>
+                  <input type="text" id="input">
+                  <button>Ping Pong!</button>
+                  <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>ping</li>
+                    <li>4</li>
+                    <li>pong</li>
+                    <li>ping</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>ping</li>
+                    <li>pong</li>
+                    <li>11</li>
+                    <li>ping</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>pingpong</li>
+                    <li>16</li>
+                    <li>17</li>
+                  </ul>
+                </form>
+              </div>
+            </div>
         </body>
       </html>

@@ -1,34 +1,46 @@
-.green-background {
-        background-color: green;
-      }
+#top {
+  background-color: #ff9966;
+  height: 200px;
+}
 
-      .yellow-background {
-        background-color: yellow;
-      }
+h1 {
+  align-content: center;
+  font-size: 100px;
+  margin-left: 40%;
+  margin-top: 2.5%;
+}
 
-      .red-background {
-        background-color: red;
-      }
+#sidebar {
+  background-color: #339966;
+  margin-top: 50px;
+  column-fill: auto;
+}
 
-      .blue-background {
-        background-color:#00000F;
-      }
-#green{
-  background-color: green;
+
+h4 {
+  color:#ff9966;
+}
+
+#m {
   color: white;
 }
 
-#yellow{
-  background-color: yellow;
+#h {
+  color: blue;
+}
+
+#j {
   color: white;
 }
 
-#red{
-  background-color: red;
-  color: white;
+#whole {
+  background-color: gainsboro;
+  height: auto;
+}
+h3 {
+  margin-top: 50px;
 }
 
-#blue{
-  background-color: blue;
-  color: white;
+button {
+  background-color: #787878;
 }
