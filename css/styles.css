@@ -1,0 +1,34 @@
+.green-background {
+        background-color: green;
+      }
+
+      .yellow-background {
+        background-color: yellow;
+      }
+
+      .red-background {
+        background-color: red;
+      }
+
+      .blue-background {
+        background-color:#00000F;
+      }
+#green{
+  background-color: green;
+  color: white;
+}
+
+#yellow{
+  background-color: yellow;
+  color: white;
+}
+
+#red{
+  background-color: red;
+  color: white;
+}
+
+#blue{
+  background-color: blue;
+  color: white;
+}
