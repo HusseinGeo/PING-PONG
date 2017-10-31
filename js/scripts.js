@@ -1,23 +1,33 @@
-function countUp(input){
-  var total = [];
-  for (var index = 1; index <= input; index ++)
-}
+function countUp(input) {
+  var total = {};
+  // for (var index = 1; index <= input; index ++)
+};
 
 function pingpong(input) {
-  var total = [];
+  var total;
   if ((input % 3 === 0)&& (input % 5 ===0)) {
-    total.push("pingpong");
+    total = ("pingpong");
   }
   else if (input % 5 ===0) {
-    total.push("pong");
+    total = ("pong");
   }
   else if (input % 3 ===0) {
-    total.push("ping");
+    total = ("ping");
   }
   else {
-    total.push(input);
+    total = (input);
   }
+  return total;
 };
 
-return total;
-};
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    var userInput = $("input#input").val();
+
+    for(var index = 1; index<=userInput; index += 1) {
+      var result=pingpong(index)
+      $("ul#list").append('<li>'+result+'</li>');
+    }
+    event.preventDefault();
+  });
+});
