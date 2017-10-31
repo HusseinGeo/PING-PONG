@@ -19,18 +19,26 @@ h1 {
 
 h4 {
   color:#ff9966;
+  margin-left: 10px;
+}
+
+#p {
+  margin-left: 10px;
 }
 
 #m {
   color: white;
+  margin-left: 10px;
 }
 
 #h {
   color: blue;
+  margin-left: 10px;
 }
 
 #j {
   color: white;
+  margin-left: 10px;
 }
 
 #whole {
