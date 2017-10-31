@@ -1,36 +1,23 @@
-//$(document).ready(function() {
-  //  //    $("button#green").click(function() {
-    //      $("body").addClass("green-background");
-        //});
-//
-  //      $("button#yellow").click(function() {
-    //      $("body").addClass("yellow-background");
-      //  });
-//
-  //      $("button#red").click(function() {
-    //      $("body").addClass("red-background");
-      //  });
-    //})
+function countUp(input){
+  var total = [];
+  for (var index = 1; index <= input; index ++)
+}
 
+function pingpong(input) {
+  var total = [];
+  if ((input % 3 === 0)&& (input % 5 ===0)) {
+    total.push("pingpong");
+  }
+  else if (input % 5 ===0) {
+    total.push("pong");
+  }
+  else if (input % 3 ===0) {
+    total.push("ping");
+  }
+  else {
+    total.push(input);
+  }
+};
 
-      $(document).ready(function() {
-              $("button#green").click(function() {
-                $("body").removeClass();
-                $("body").addClass("green-background");
-              });
-
-              $("button#yellow").click(function() {
-                $("body").removeClass();
-                $("body").addClass("yellow-background");
-              });
-
-              $("button#red").click(function() {
-                $("body").removeClass();
-                $("body").addClass("red-background");
-              })
-
-            $("button#blue").click(function() {
-              $("body").removeClass();
-              $("body").addClass("blue-background");
-            });
-          });
+return total;
+};
