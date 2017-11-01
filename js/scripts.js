@@ -1,3 +1,5 @@
+// Back End Logic
+
 function countUp(input) {
   var total = {};
   // for (var index = 1; index <= input; index ++)
@@ -20,11 +22,13 @@ function pingpong(input) {
   return total;
 };
 
+
+// Front End logic
 $(document).ready(function() {
   $("form").submit(function(event) {
     var userInput = $("input#input").val();
-
-    for(var index = 1; index<=userInput; index += 1) {
+    $("#list").empty();
+    for(var index = 1; index<=userInput; index +=1) {
       var result=pingpong(index)
       $("ul#list").append('<li>'+result+'</li>');
     }
