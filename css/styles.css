@@ -1,34 +1,45 @@
-#top {
+/*#top {
   background-color: #ff9966;
   height: 200px;
+}*/
+
+* {
+  margin: 0;
+  padding: -40;
+}
+body {
+  background-image: url("../img/shiny-lottery-balls.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
   align-content: center;
   font-size: 100px;
   margin-left: 40%;
-  margin-top: 2.5%;
+  margin-top: 1.5%;
+  /*background-color: gainsboro;*/
 }
 
-#sidebar {
+/*#sidebar {
   background-color: #339966;
   margin-top: 50px;
   column-fill: auto;
-}
-
+}*/
 
 h4 {
-  color:#ff9966;
+  color: #ff9966;
   margin-left: 10px;
 }
 
 #p {
-  margin-left: 10px;
+  margin-left: 50px;
   margin-bottom: 20px;
+  color: #663096;
 }
 
 #m {
-  color: white;
+  color: blue;
   margin-left: 10px;
   font-size: 30px;
 }
@@ -40,20 +51,26 @@ h4 {
 }
 
 #j {
-  color: white;
+  color: blue;
   margin-left: 10px;
   font-size: 30px;
 }
 
-#whole {
+/*#whole {
   background-color: gainsboro;
   height: auto;
-}
+}*/
+
 h3 {
   margin-top: 50px;
-  color: purple;
+  margin-left: 50px;
+  color: #663096;
 }
 
 button {
   background-color: #787878;
+}
+
+img {
+  background-image: url(../img/shiny-lottery-balls.jpg);
 }

@@ -1,9 +1,9 @@
 // Back End Logic
 
-function countUp(input) {
-  var total = {};
+// function countUp(input) {
+  // var total = {};
   // for (var index = 1; index <= input; index ++)
-};
+// };
 
 function pingpong(input) {
   var total;
