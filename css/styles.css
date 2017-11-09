@@ -8,9 +8,9 @@
   padding: -40;
 }
 body {
-  background-image: url("../img/shiny-lottery-balls.jpg");
+  background-image: url("../img/pingpong.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h4 {
 }
 
 #p {
-  margin-left: 50px;
+  margin-left: 10px;
   margin-bottom: 20px;
   color: #663096;
 }
@@ -63,7 +63,7 @@ h4 {
 
 h3 {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 10px;
   color: #663096;
 }
 
@@ -73,4 +73,16 @@ button {
 
 img {
   background-image: url(../img/shiny-lottery-balls.jpg);
+}
+
+#results {
+  height: 500px;
+  overflow-y: scroll;
+}
+h5 {
+  margin-left: 10px;
+}
+
+p {
+  margin-left: 10px;
 }
